@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4B2D7368247D36A3005AFE80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D7367247D36A3005AFE80 /* AppDelegate.swift */; };
 		4B2D736A247D36A3005AFE80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D7369247D36A3005AFE80 /* SceneDelegate.swift */; };
-		4B2D736C247D36A3005AFE80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D736B247D36A3005AFE80 /* ViewController.swift */; };
-		4B2D736F247D36A3005AFE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2D736D247D36A3005AFE80 /* Main.storyboard */; };
 		4B2D7371247D36A8005AFE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2D7370247D36A8005AFE80 /* Assets.xcassets */; };
 		4B2D7374247D36A8005AFE80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2D7372247D36A8005AFE80 /* LaunchScreen.storyboard */; };
 		4B2D737F247D36A8005AFE80 /* FunFactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D737E247D36A8005AFE80 /* FunFactTests.swift */; };
 		4B2D738A247D36A8005AFE80 /* FunFactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D7389247D36A8005AFE80 /* FunFactUITests.swift */; };
+		4B2D739B247D3ACB005AFE80 /* FunFactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D739A247D3ACB005AFE80 /* FunFactService.swift */; };
+		4B2D739E247D3DFC005AFE80 /* FunFactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D739D247D3DFC005AFE80 /* FunFactViewController.swift */; };
+		4B2D73A0247D4250005AFE80 /* InitialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D739F247D4250005AFE80 /* InitialTableViewController.swift */; };
+		4B2D73A3247D431B005AFE80 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D73A2247D431B005AFE80 /* Enums.swift */; };
+		4B2D73A6247D4414005AFE80 /* FunFactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2D73A5247D4414005AFE80 /* FunFactTableViewCell.swift */; };
+		4B2D73A9247D48CF005AFE80 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2D73A8247D48CF005AFE80 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B2D7364247D36A3005AFE80 /* FunFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2D7364247D36A3005AFE80 /* Fun Fact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun Fact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2D7367247D36A3005AFE80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B2D7369247D36A3005AFE80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B2D736B247D36A3005AFE80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4B2D736E247D36A3005AFE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B2D7370247D36A8005AFE80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B2D7373247D36A8005AFE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B2D7375247D36A8005AFE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,11 @@
 		4B2D7385247D36A8005AFE80 /* FunFactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2D7389247D36A8005AFE80 /* FunFactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactUITests.swift; sourceTree = "<group>"; };
 		4B2D738B247D36A8005AFE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2D739A247D3ACB005AFE80 /* FunFactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactService.swift; sourceTree = "<group>"; };
+		4B2D739D247D3DFC005AFE80 /* FunFactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactViewController.swift; sourceTree = "<group>"; };
+		4B2D739F247D4250005AFE80 /* InitialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialTableViewController.swift; sourceTree = "<group>"; };
+		4B2D73A2247D431B005AFE80 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		4B2D73A5247D4414005AFE80 /* FunFactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2D73A9247D48CF005AFE80 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +97,7 @@
 		4B2D7365247D36A3005AFE80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B2D7364247D36A3005AFE80 /* FunFact.app */,
+				4B2D7364247D36A3005AFE80 /* Fun Fact.app */,
 				4B2D737A247D36A8005AFE80 /* FunFactTests.xctest */,
 				4B2D7385247D36A8005AFE80 /* FunFactUITests.xctest */,
 			);
@@ -99,10 +107,12 @@
 		4B2D7366247D36A3005AFE80 /* FunFact */ = {
 			isa = PBXGroup;
 			children = (
+				4B2D73A4247D43FE005AFE80 /* View */,
+				4B2D73A1247D4311005AFE80 /* Util */,
+				4B2D739C247D3CCB005AFE80 /* ViewControllers */,
+				4B2D7399247D3A7B005AFE80 /* Services */,
 				4B2D7367247D36A3005AFE80 /* AppDelegate.swift */,
 				4B2D7369247D36A3005AFE80 /* SceneDelegate.swift */,
-				4B2D736B247D36A3005AFE80 /* ViewController.swift */,
-				4B2D736D247D36A3005AFE80 /* Main.storyboard */,
 				4B2D7370247D36A8005AFE80 /* Assets.xcassets */,
 				4B2D7372247D36A8005AFE80 /* LaunchScreen.storyboard */,
 				4B2D7375247D36A8005AFE80 /* Info.plist */,
@@ -128,6 +138,39 @@
 			path = FunFactUITests;
 			sourceTree = "<group>";
 		};
+		4B2D7399247D3A7B005AFE80 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D739A247D3ACB005AFE80 /* FunFactService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4B2D739C247D3CCB005AFE80 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D739D247D3DFC005AFE80 /* FunFactViewController.swift */,
+				4B2D739F247D4250005AFE80 /* InitialTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4B2D73A1247D4311005AFE80 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D73A2247D431B005AFE80 /* Enums.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4B2D73A4247D43FE005AFE80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B2D73A5247D4414005AFE80 /* FunFactTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,8 +187,11 @@
 			dependencies = (
 			);
 			name = FunFact;
+			packageProductDependencies = (
+				4B2D73A8247D48CF005AFE80 /* Alamofire */,
+			);
 			productName = FunFact;
-			productReference = 4B2D7364247D36A3005AFE80 /* FunFact.app */;
+			productReference = 4B2D7364247D36A3005AFE80 /* Fun Fact.app */;
 			productType = "com.apple.product-type.application";
 		};
 		4B2D7379247D36A8005AFE80 /* FunFactTests */ = {
@@ -216,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 4B2D735B247D36A3005AFE80;
+			packageReferences = (
+				4B2D73A7247D48CF005AFE80 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 4B2D7365247D36A3005AFE80 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +283,6 @@
 			files = (
 				4B2D7374247D36A8005AFE80 /* LaunchScreen.storyboard in Resources */,
 				4B2D7371247D36A8005AFE80 /* Assets.xcassets in Resources */,
-				4B2D736F247D36A3005AFE80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2D736C247D36A3005AFE80 /* ViewController.swift in Sources */,
+				4B2D73A0247D4250005AFE80 /* InitialTableViewController.swift in Sources */,
+				4B2D73A6247D4414005AFE80 /* FunFactTableViewCell.swift in Sources */,
+				4B2D739E247D3DFC005AFE80 /* FunFactViewController.swift in Sources */,
 				4B2D7368247D36A3005AFE80 /* AppDelegate.swift in Sources */,
 				4B2D736A247D36A3005AFE80 /* SceneDelegate.swift in Sources */,
+				4B2D73A3247D431B005AFE80 /* Enums.swift in Sources */,
+				4B2D739B247D3ACB005AFE80 /* FunFactService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4B2D736D247D36A3005AFE80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4B2D736E247D36A3005AFE80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4B2D7372247D36A8005AFE80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.lg.FunFact;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fun Fact";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +504,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.lg.FunFact;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Fun Fact";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -590,6 +634,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B2D73A7247D48CF005AFE80 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B2D73A8247D48CF005AFE80 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B2D73A7247D48CF005AFE80 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4B2D735C247D36A3005AFE80 /* Project object */;
 }
